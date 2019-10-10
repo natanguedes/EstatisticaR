@@ -1,5 +1,7 @@
 idade <- c(78, 78, 76, 75, 77, 78, 77, 78, 79, 75, 75,76)
 idade
+result <- getmode(idade)
+print(result)
 
 mean(idade)
 median(idade)
