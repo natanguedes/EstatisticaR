@@ -2,12 +2,20 @@
 
 
 dados =  read.table("E:\\Natanael\\tsi\\3periodo\\estatistica\\Nova\\estatistic\\EstatisticaR\\codigos\\graficos\\matriculados.txt", header = T, sep="," )
-
+sa = prop.table(dados)
 un = dados["unidade_ensino"]
 prop.table(un)
-ano = dados['Ano']
-pie(table(un))
+ano = dados['Quantidade']
+hist(ano)
+hist(table(dados['Quantidade']), col = rainbow(3))
+?sum
 
+DF =  table(unlist(dados[,6])) # mostra a quantidade de ocorrencia, por exemplo, no ano de 2019 temos 135 ocorrencias
+DF
+
+modalidade = dados['modalidade_ensino'] 
+barplot(table(modalidade), main = "modalidade de ensino", col = rainbow(3))
+?barplot
 freqa = table(dados['unidade_ensino']) #calcula frequencia absoluta de unidade ensino
 freqa #exibe as frequencias absolutas
 
