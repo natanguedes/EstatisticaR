@@ -38,5 +38,5 @@ bp<- ggplot(df, aes(x="", y=value, fill=group))+
   geom_bar(width = 1, stat = "identity")
 bp
 
-pie <- bp + coord_polar("y", start=0)
+pie <- bp + coord_polar("y", start=0)+ ggtitle("              Categorias")
 pie
