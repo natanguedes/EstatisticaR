@@ -38,5 +38,26 @@ bp<- ggplot(df, aes(x="", y=value, fill=group))+
   geom_bar(width = 1, stat = "identity")
 bp
 
-pie <- bp + coord_polar("y", start=0)+ ggtitle("              Categorias")
+pie <- bp + coord_polar("y", start=0)+ ggtitle("                                            Categorias")
 pie
+
+
+install.packages("GGally")
+
+
+require("GGally")
+# Fit survival functions
+surv <- survfit(Surv(time, status) ~ sex, data = lung)
+# Plot survival curves
+surv.p <- ggsurv(surv)
+surv.p
+
+
+df <- mtcars[, c(1,3,4,5,6,7)]
+# Correlation plot
+ggcorr(df, palette = "RdBu", label = TRUE)
+
+
+surv.p + guides(linetype = FALSE) +
+  scale_colour_discrete(name   = 'Sex', breaks = c(1,2), 
+                        labels = c('Male', 'Female'))
