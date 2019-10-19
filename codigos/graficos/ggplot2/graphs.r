@@ -26,7 +26,7 @@ print(plot2)
 
 
 
-
+#graph pie 
 
 df <- data.frame(
   group = c("Male", "Female","kid"),
@@ -61,3 +61,26 @@ ggcorr(df, palette = "RdBu", label = TRUE)
 surv.p + guides(linetype = FALSE) +
   scale_colour_discrete(name   = 'Sex', breaks = c(1,2), 
                         labels = c('Male', 'Female'))
+
+blank_theme <- theme_minimal()+
+  theme(
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    panel.border = element_blank(),
+    panel.grid=element_blank(),
+    axis.ticks = element_blank(),
+    plot.title=element_text(size=14, face="bold")
+  )
+
+
+library(scales)
+pie + scale_fill_grey() +  blank_theme +
+  theme(axis.text.x=element_blank()) +
+  geom_text(aes(y = value/3 + c(0, cumsum(value)[-length(value)]), 
+                label = percent(value/100)), size=5)
+
+
+pie + scale_fill_brewer("Blues") + blank_theme +
+  theme(axis.text.x=element_blank())+
+  geom_text(aes(y = value/3 + c(0, cumsum(value)[-length(value)]), 
+                label = percent(value/100)), size=5)
