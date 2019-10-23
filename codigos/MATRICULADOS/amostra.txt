@@ -1,0 +1,61 @@
+"unidade_ensino"	"modalidade_ensino"	"tipo_curso"	"tipo_oferta"	"Ano"	"Status_Matricula"	"Quantidade"
+"CBRA"	"Educação Presencial"	"TECNOLOGIA"	"Outros"	2013	"matriculado"	181
+"IFB"	"Educação a Distancia"	"TÉCNICO"	"Subsequente"	2017	"matriculado"	3208
+"CEST"	"Educação Presencial"	"TÉCNICO"	"Integrado"	2016	"matriculado"	0
+"CPLA"	"Educação Presencial"	"TECNOLOGIA"	"Outros"	2009	"matriculado"	0
+"CRFI"	"Educação Presencial"	"ESPECIALIZACAO (LATO SENSU)"	"Outros"	2012	"matriculado"	0
+"CSSB"	"Educação a Distancia"	"TÉCNICO"	"Subsequente"	2017	"matriculado"	83
+"CTAG"	"Educação Presencial"	"FORMACAO CONTINUADA"	"Concomitante"	2015	"matriculado"	0
+"CPLA"	"Educação Presencial"	"FORMACAO INICIAL"	"Subsequente"	2016	"matriculado"	0
+"CSAM"	"Educação Presencial"	"FORMACAO INICIAL"	"PROEJA - Concomitante"	2014	"matriculado"	0
+"CEST"	"Educação Presencial"	"TÉCNICO"	"Integrado"	2015	"matriculado"	0
+"CPLA"	"Educação Presencial"	"FORMACAO CONTINUADA"	"Concomitante"	2016	"matriculado"	0
+"CPLA"	"Educação Presencial"	"TÉCNICO"	"Concomitante"	2016	"matriculado"	103
+"IFB"	"Educação Presencial"	"FORMACAO INICIAL"	"Concomitante"	2011	"matriculado"	0
+"CPLA"	"Educação Presencial"	"ESPECIALIZACAO (LATO SENSU)"	"Outros"	2016	"matriculado"	0
+"CSSB"	"Educação Presencial"	"FORMACAO CONTINUADA"	"Outros"	2010	"matriculado"	0
+"IFB"	"Educação Presencial"	"FORMACAO CONTINUADA"	"Outros"	2013	"matriculado"	627
+"CBRA"	"Educação Presencial"	"TECNOLOGIA"	"Outros"	2011	"matriculado"	0
+"CTAG"	"Educação Presencial"	"FORMACAO CONTINUADA"	"Subsequente"	2014	"matriculado"	168
+"CTAG"	"Educação Presencial"	"LICENCIATURA"	"Outros"	2013	"matriculado"	0
+"IFB"	"Educação Presencial"	"TÉCNICO"	"Subsequente"	2009	"matriculado"	290
+"CRFI"	"Educação Presencial"	"TÉCNICO"	"Integrado"	2013	"matriculado"	0
+"CTGC"	"Educação Presencial"	"TÉCNICO"	"Subsequente"	2009	"matriculado"	0
+"CTGC"	"Educação Presencial"	"FORMACAO CONTINUADA"	"Concomitante"	2015	"matriculado"	0
+"IFB"	"Educação a Distancia"	"FORMACAO INICIAL"	"Concomitante"	2010	"matriculado"	0
+"CCEI"	"Educação Presencial"	"FORMACAO CONTINUADA"	"Outros"	2017	"matriculado"	387
+"CPLA"	"Educação a Distancia"	"TÉCNICO"	"Subsequente"	2012	"matriculado"	118
+"CCEI"	"Educação Presencial"	"TÉCNICO"	"Integrado"	2013	"matriculado"	0
+"CEST"	"Educação Presencial"	"TÉCNICO"	"PROEJA - Integrado"	2009	"matriculado"	0
+"IFB"	"Educação Presencial"	"FORMACAO INICIAL"	"Subsequente"	2010	"matriculado"	0
+"CEST"	"Educação Presencial"	"FORMACAO INICIAL"	"Outros"	2016	"matriculado"	314
+"CSSB"	"Educação Presencial"	"TECNOLOGIA"	"Outros"	2012	"matriculado"	0
+"CTAG"	"Educação Presencial"	"TECNOLOGIA"	"Outros"	2011	"matriculado"	0
+"CEST"	"Educação Presencial"	"TÉCNICO"	"PROEJA - Integrado"	2017	"matriculado"	0
+"CBRA"	"Educação Presencial"	"TÉCNICO"	"Integrado"	2011	"matriculado"	0
+"CGAM"	"Educação a Distancia"	"TÉCNICO"	"Subsequente"	2016	"matriculado"	450
+"IFB"	"Educação Presencial"	"FORMACAO INICIAL"	"Subsequente"	2011	"matriculado"	71
+"CSSB"	"Educação a Distancia"	"TÉCNICO"	"Subsequente"	2009	"matriculado"	0
+"IFB"	"Educação a Distancia"	"FORMACAO CONTINUADA"	"Outros"	2012	"matriculado"	0
+"CRFI"	"Educação Presencial"	"FORMACAO INICIAL"	"PROEJA - Concomitante"	2010	"matriculado"	0
+"CEST"	"Educação Presencial"	"FORMACAO CONTINUADA"	"Subsequente"	2013	"matriculado"	19
+"CRFI"	"Educação Presencial"	"FORMACAO CONTINUADA"	"Outros"	2012	"matriculado"	0
+"CEST"	"Educação Presencial"	"FORMACAO CONTINUADA"	"Subsequente"	2010	"matriculado"	0
+"CCEI"	"Educação Presencial"	"TÉCNICO"	"Integrado"	2017	"matriculado"	0
+"IFB"	"Educação Presencial"	"TÉCNICO"	"Concomitante"	2016	"matriculado"	103
+"CSSB"	"Educação a Distancia"	"TÉCNICO"	"Subsequente"	2016	"matriculado"	151
+"CTGC"	"Educação Presencial"	"TÉCNICO"	"Integrado"	2009	"matriculado"	0
+"CSAM"	"Educação Presencial"	"FORMACAO CONTINUADA"	"Subsequente"	2012	"matriculado"	0
+"CPLA"	"Educação a Distancia"	"TÉCNICO"	"Subsequente"	2016	"matriculado"	629
+"CTAG"	"Educação Presencial"	"FORMACAO INICIAL"	"Concomitante"	2012	"matriculado"	46
+"IFB"	"Educação Presencial"	"MESTRADO PROFISSIONAL"	"Outros"	2017	"matriculado"	0
+"CPLA"	"Educação Presencial"	"TECNOLOGIA"	"Outros"	2015	"matriculado"	345
+"CRFI"	"Educação Presencial"	"TÉCNICO"	"Integrado"	2016	"matriculado"	80
+"CPLA"	"Educação Presencial"	"LICENCIATURA"	"Outros"	2012	"matriculado"	0
+"CTGC"	"Educação Presencial"	"ESPECIALIZACAO (LATO SENSU)"	"Outros"	2016	"matriculado"	41
+"CPLA"	"Educação Presencial"	"TÉCNICO"	"Concomitante"	2015	"matriculado"	16
+"CRFI"	"Educação Presencial"	"FORMACAO CONTINUADA"	"Outros"	2016	"matriculado"	244
+"CRFI"	"Educação Presencial"	"TÉCNICO"	"Subsequente"	2011	"matriculado"	0
+"CGAM"	"Educação Presencial"	"TÉCNICO"	"Subsequente"	2014	"matriculado"	685
+"CPLA"	"Educação Presencial"	"TÉCNICO"	"Concomitante"	2017	"matriculado"	93
+"CSAM"	"Educação a Distancia"	"TÉCNICO"	"Subsequente"	2012	"matriculado"	163

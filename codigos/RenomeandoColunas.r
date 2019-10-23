@@ -14,3 +14,6 @@ Amostra <- read.table("E:\\Natanael\\tsi\\3periodo\\estatistica\\Nova\\estatisti
 #Uma vez salva sua amostra, voc? est? pronto para come?ar as an?lises!
 Amostra
 colnames(Amostra)[1]<-'Pais' #renomeia o nome da primeira coluna do dataframe
+
+#depois que renomeia salva o arquivo
+write.table(Amostra, "minhaAmostra.txt", append = F, na="", sep = "\t", row.names = F) #O comando append = F
