@@ -1,27 +1,3 @@
-#0############ATEN??O!!!###############
-#Caso voc? tenha d?vida sobre o uso de alguma fun??o espec?fica, voc? possui dois caminhos
-#Caso voc? j? saiba o nome da fun??o, voc? pode pedir ajudar utilizando o ? junto ao nome da fun??o. Exemplo
-?mean
-#Caso voc? n?o saiba o nome da fun??o, mas tenha ideia da mesma por alguma palavra similar, utilize o ?? junto a palavra que deve estar entre aspas
-??"standard deviance"
-
-#Agora vamos come?ar!
-
-#Opera??es b?sicas direto no console do R
-  2 + 4
-Soma <- 2 + 4 #uma vari?vel recebe algum valor pelo sinal de <- ou = tanto faz qual utilizar
-Multiplicacao = 3*6
-Operacao = Soma/Multiplicacao
-
-#Criando vetores no R
-
-altura = c(1.63, 1.78, 1.69, 1.85, 1.75, 1.65, 1.67, 1.65, 1.65, 1.71, 1.84, 1.83, 1.76, 1.69, 1.67, 1.80) #separador decimal ? o ponto
-
-
-#Criando matrizes no R
-
-teste = matrix(nrow = 2, ncol = 2, c(0,1,2,3))
-teste
 
 #Lendo dados externos ao R
 
