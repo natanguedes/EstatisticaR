@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<livros>
+	<livro ISBN = "1">
+		<titulo id ="10">PHP</titulo>
+		<editora fantasia ="Edit. Erica">
+			<nome>Erica</nome>
+			<rua tipo="Av.">A</rua>
+		</editora>
+	</livro>
+	<livro ISBN = "2">
+		<titulo id ="11">ASP</titulo>
+		<editora fantasia ="Edit. Campus">
+			<nome>Campus</nome>
+			<rua tipo="Logradouro">B</rua>
+		</editora>
+	</livro>
+</livros>
+
+
