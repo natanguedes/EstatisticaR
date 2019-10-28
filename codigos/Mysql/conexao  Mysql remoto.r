@@ -1,5 +1,8 @@
 install.packages("RMySQL")
 library(RMySQL)
+
+#de acordo com o servidor do  site: http://www.phpmyadmin.co 
+
 mydb = dbConnect(MySQL(), user='sql10309993', password='CdqdQub7De', dbname='sql10309993', host='sql10.freemysqlhosting.net')
 mydb
 # rs = dbSendQuery(mydb, "select * from marca")

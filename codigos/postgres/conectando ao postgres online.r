@@ -3,7 +3,7 @@ install.packages("RPostgreSQL")
 
 library(RPostgreSQL)
 
-#servidor site: https://customer.elephantsql.com/login
+#servidor online postgres: https://customer.elephantsql.com/login
 
 # create a connection
 # save the password that we can "hide" it as best as we can by collapsing it
