@@ -8,7 +8,7 @@ library(RPostgreSQL)
 # create a connection
 # save the password that we can "hide" it as best as we can by collapsing it
 pw <- {
-  "tkachrpq"
+  "bID7Oe4bm5HvAQvw0FaRzjA7iFxvta1u"
 }
 
 # loads the PostgreSQL driver
