@@ -290,12 +290,12 @@ barplot(a, col=color(10))
 #A fun??o no R que faz essa verifica??o ? um teste de hip?teses como o que segue
 ?ks.test
 
-#Se a vari?vel testada seguir uma distribui??o normal, o teste a ser utilizado ser?
-#Um teste Z ou um teste T. Caso contr?rio, o teste utilizado ser? um teste de Wilcoxon
+#Se a variavel testada seguir uma distribui??o normal, o teste a ser utilizado ser?
+#Um teste Z ou um teste T. Caso contr?rio, o teste utilizado sera um teste de Wilcoxon
 
 #c?digo da hip?tese no relat?rio fica na parte do c?digo e resulta da hip?tese fica no resultados
 
-ks.test(Idade, "pnorm", mean = mean(Idade), sd = sd(Idade)) #testar cada vari?vel para saber se ? maior do 0.05 se for ? normal
+ks.test(Idade, "pnorm", mean = mean(Idade), sd = sd(Idade)) #testar cada vari?vel para saber se eh maior do 0.05 se for eh normal
 
 #hipoteses de idade na populacao
 
@@ -322,9 +322,9 @@ z.test(Recursos, alternative = "two.sided", mu = mean(Recursos), sigma.x = sd(Re
 mean(Recursos) #media de recursos na amostra
 sd(Recursos) #desvio padr?o de recurso na amostra
 
-#O p-value serve para rejeitarmos ou n?o a hip?tese nula.
-#Se p-value ? menor que 0,05 ou 0,01, eu rejeito a hip?tese.
-#Caso contr?rio, eu n?o rejeito H0.   olhar o  numero depois do zero virgula  (0,) ou seja, nesse caso, rejeita h0 entao h1 ? verdadeiro 
+#O p-value serve para rejeitarmos ou n?o a hipotese nula.
+#Se p-value eh menor que 0,05 ou 0,01, eu rejeito a hip?tese.
+#Caso contrario, eu nao rejeito H0.   olhar o  numero depois do zero virgula  (0,) ou seja, nesse caso, rejeita h0 entao h1 eh verdadeiro 
 
 #hipotese de recursos da populacao
 
@@ -370,13 +370,13 @@ mean(dados[,4])
  z.test(Renda_da_familia, alternative = "two.sided", mu = mean(dados[,4]), sigma.x = sd(dados[,4]))
  
 
- #
+
+
  
- 
 
 
 
-#b. Verificar atrav?s de um intervalo de confian?a e de um teste de hip?teses se os dados
+#b. Verificar atraves de um intervalo de confianca e de um teste de hipoteses se os dados
 #da sua amostra batem com os dados do banco inteiro.
 #Nesse sentido, voc? precisa formular as hip?teses se baseando nas informa??es que voc? tem no
 #banco de dados.
@@ -391,12 +391,12 @@ mean(dados[,4])
   
    
   
-  #realizar a regress?o e correla??o das vari?veis quantitativas
+  #realizar a regressao e correlacao das variaveis quantitativas
   #realizar teste dois por tipo de teste
-  #Teste de m?dia para uma amostra
-  #Teste de propor??o para uma amostra
-  #Teste de m?dia para duas amostras
-  #Teste de propor??o para duas amostras
+  #Teste de media para uma amostra
+  #Teste de proporcao para uma amostra
+  #Teste de media para duas amostras
+  #Teste de proporcao para duas amostras
 
 amostra1 = Rendadivpessoa
 
@@ -422,7 +422,7 @@ amostra2 = Renda_da_familia
 
   
       |#calculo para media de duas amostra cidade de recife da amostra com a populacao
-      #  na variavel x o primeiro valor ? da populacao e o segundo ? da amostra
+      #  na variavel x o primeiro valor eh da populacao e o segundo eh da amostra
       #No n, o primeiro valor ? o total da popula??o, o segundo ? o total da amostra
       
           testeMediaRecife <- t.test(x = c(59,36), n = c(102, 60)) #essa linha calcula a media entre a amostra e  popula??o de recife    testeMediaRecife
@@ -478,8 +478,8 @@ cor(dados[,20], dados[,13]) #correla??o entre Renda familiar e casa da populacao
   cor(dados[,16,], dados[,20]) #verifica a correla??o entre nhabit alug e renda familiar na populacao
   
   #Obs.: Para verificar a correla??o de Pearson entre duas vari?veis
- #voc? precisa se certificar de que as mesmas possuem o mesmo tamanho.
- #Caso n?o, voc? s? pode considerar vari?veis de mesmo tamanho.
+ #voce precisa se certificar de que as mesmas possuem o mesmo tamanho.
+ #Caso nao, voce so pode considerar variaveis de mesmo tamanho.
  
  #b. Buscar um modelo de regress?o tanto para a popula??o quanto para a sua amostra
  #Coloque no gr?fico de pontos, a reta que representa o modelo de regress?o.
@@ -504,7 +504,7 @@ cor(dados[,20], dados[,13]) #correla??o entre Renda familiar e casa da populacao
   
 
   
-  #c?lculo de regress?o de trabalho e recurso
+  #calculo de regressao de trabalho e recurso
   
   reg_amos = lm(Trabalho ~ Recursos)
   summary(reg_amos)
