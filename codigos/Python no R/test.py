@@ -1,4 +1,4 @@
- #essa linha abraixo fica o executável (python.exe) do python que está localizado em C:/python27/python 
+ #essa linha abaixo fica o executável (python.exe) do python que está localizado em C:/python27/python 
 #!C:/python27/python  
 import matplotlib.pyplot as plt
 
