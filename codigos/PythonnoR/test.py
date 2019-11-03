@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 
 x = ["doce"]
 y = ["nenhum","doce"]
-
 x2 = ["salgado"]
 y2 = ["salgado"]
 
